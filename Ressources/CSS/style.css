@@ -589,10 +589,26 @@ input[type="checkbox"] {
   outline: none; /*enleve les bordures bleues du formulaire au click*/
 }
 
-.map-box {
-  width: 100%;
-  height: 630px;
-  position: relative;
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-bottom: 20px;
+  color: rgb(39, 39, 39);
+  text-align: center;
+}
+
+.success {
+  background-color: rgba(4, 154, 124, 0.8);
+}
+
+.error {
+  background-color: rgba(214, 48, 49, 0.8);
 }
 /* 
 .map {
